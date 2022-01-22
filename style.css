@@ -1,0 +1,54 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* FLEXBOX */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+/* flexbox is a whole module and not a single property, it involves 
+a lot of things including its whole set of properties. 
+
+Some of them are meant to be set on the container (parent element, known 
+as “flex container”) whereas the others are meant to be set on the 
+children (said “flex items”). */
+
+/* PARENT properties */
+/*
+display, flex-direction, flex-wrap, flex-flow, justify-content, align-items, align-content, gap/row-gap/column-gap
+
+Notes:
+1. justify-content (MAIN AXIS X DIRECTION) versus align-items (CROSS AXIS Y DIRECTION) = flex-direction = row/column
+
+*/
+
+/* CHILDREN properties */
+/* 
+order, flex-grow, flex-shrink, flex-basis, flex, align-self, 
+*/
+
+div{
+    background: blue;
+    width: 850px;
+    height: 195px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+
+    /* MAIN AXIS */
+    justify-content: space-around;
+
+    /* CROSS AXIS */
+    align-items: center;
+}
+
+
+/* GRID */
+
+
+
+
+
